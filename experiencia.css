@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 1rem;
+}
+
+.linha {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.151);
+    display: block;
+    margin: auto;
+    width: 95%;
+}
+
+a {
+    color: #4CAF50;
+}
+
+.sub-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 2.5rem;
+    margin: 20px 20px;
+}
+
+.card {
+    box-shadow: 0px 0px 100px 0px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.card > h2 {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 100;
+}
